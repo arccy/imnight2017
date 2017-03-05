@@ -4,6 +4,7 @@
         <title>IM Night 2017</title>
         <style>
             body {
+                margin: auto;
                 max-width: 150vh;
             }
             img {
