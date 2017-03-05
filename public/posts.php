@@ -3,6 +3,9 @@
     <head>
         <title>IM Night 2017</title>
         <style>
+            a {
+                text-decoration: none;
+            }
             body {
                 margin: auto;
                 max-width: 150vh;
@@ -23,9 +26,6 @@
             .hdiv {
                 width: 100%;
             }
-            .vdiv {
-                width: 1%;
-            }
         </style>
     </head>
     <body>
@@ -39,15 +39,12 @@
             <a href="/night/">
                 <img class="nav" src="nav1.png">
             </a>
-            <img class="vdiv" src="vdivider.png">
             <a href="about.html">
                 <img class="nav" src="nav2.png">
             </a>
-            <img class="vdiv" src="vdivider.png">
             <a href="posts.php">
                 <img class="nav" src="nav3.png">
             </a>
-            <img class="vdiv" src="vdivider.png">
             <a href="https://www.facebook.com/2015Shadows/">
                 <img class="nav" src="nav4.png">
             </a>
