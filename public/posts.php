@@ -42,7 +42,15 @@
             </a>
         </nav>
         <main>
-            <img class="main" src="main1.png">
+<?php
+            $dirname = "posts";
+            $images = glob($dirname."*.png");
+
+            foreach($images as $image) {
+                echo '<img class="main" src="'.$image.'" />';
+
+            }
+?>
         </main>
     </body>
 </html>
