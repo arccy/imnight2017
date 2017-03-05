@@ -4,7 +4,7 @@
         <title>IM Night 2017</title>
         <style>
             body {
-                max-width: 178vh;
+                max-width: 150vh;
             }
             img {
                 height: auto;
@@ -14,7 +14,7 @@
 
             }
             .nav {
-                width: 25%;
+                width: 23%;
             }
             .main {
                 width: 100%;
@@ -43,7 +43,7 @@
         </nav>
         <main>
 <?php
-            $dirname = "posts";
+            $dirname = "./posts/";
             $images = glob($dirname."*.png");
 
             foreach($images as $image) {
