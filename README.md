@@ -1,3 +1,6 @@
+# IM Night 2016 Site
+inspired by [http://www.carce.cc/goodcar](http://www.carce.cc/goodcar), this site should make it feel as if it were thrown together in 2 hours (which it was), by someone stuck in the turn of the century (I was barely born back then!)
+
 ## Static site gen using Hugo
 Theme is "track"
 
